@@ -1,0 +1,48 @@
+﻿生成启动时间为 2017/2/15 18:45:51。
+     1>项目“D:\Software\Visual Studio 2013\Projects\Calculator\Calculator\Calculator\Calculator.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Software\Visual Studio 2013\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\Calculator.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Software\Visual Studio 2013\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\Calculator.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Calculator.cpp CalculatorDlg.cpp CtlEdit.cpp
+         Calculator.cpp
+         CalculatorDlg.cpp
+     1>CalculatorDlg.cpp(383): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 CalculatorDlg.cpp(372) : 忽略“i”的定义
+                 CalculatorDlg.cpp(367) : 使用“i”的定义
+     1>CalculatorDlg.cpp(389): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 CalculatorDlg.cpp(372) : 忽略“i”的定义
+                 CalculatorDlg.cpp(367) : 使用“i”的定义
+     1>CalculatorDlg.cpp(400): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 CalculatorDlg.cpp(396) : 忽略“i”的定义
+                 CalculatorDlg.cpp(367) : 使用“i”的定义
+     1>CalculatorDlg.cpp(400): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+     1>CalculatorDlg.cpp(408): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 CalculatorDlg.cpp(372) : 忽略“i”的定义
+                 CalculatorDlg.cpp(367) : 使用“i”的定义
+     1>CalculatorDlg.cpp(410): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 CalculatorDlg.cpp(372) : 忽略“i”的定义
+                 CalculatorDlg.cpp(367) : 使用“i”的定义
+     1>CalculatorDlg.cpp(428): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 CalculatorDlg.cpp(372) : 忽略“i”的定义
+                 CalculatorDlg.cpp(367) : 使用“i”的定义
+     1>CalculatorDlg.cpp(439): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 CalculatorDlg.cpp(435) : 忽略“i”的定义
+                 CalculatorDlg.cpp(367) : 使用“i”的定义
+     1>CalculatorDlg.cpp(439): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+         CtlEdit.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IRelease\ /nologo /fo"Release\Calculator.res" Calculator.rc 
+       Link:
+         D:\Software\Visual Studio 2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Software\Visual Studio 2013\Projects\Calculator\Calculator\Release\Calculator.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"D:\Software\Visual Studio 2013\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"D:\Software\Visual Studio 2013\Projects\Calculator\Calculator\Release\Calculator.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Software\Visual Studio 2013\Projects\Calculator\Calculator\Release\Calculator.lib" /MACHINE:X86 /SAFESEH Release\Calculator.res
+         Release\Calculator.obj
+         Release\CalculatorDlg.obj
+         Release\CtlEdit.obj
+         Release\stdafx.obj
+         正在生成代码
+         已完成代码的生成
+         Calculator.vcxproj -> D:\Software\Visual Studio 2013\Projects\Calculator\Calculator\Release\Calculator.exe
+     1>已完成生成项目“D:\Software\Visual Studio 2013\Projects\Calculator\Calculator\Calculator\Calculator.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:21.15

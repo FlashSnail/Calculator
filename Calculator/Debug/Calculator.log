@@ -1,0 +1,47 @@
+﻿生成启动时间为 2017/2/15 18:44:18。
+     1>项目“D:\Software\Visual Studio 2013\Projects\Calculator\Calculator\Calculator\Calculator.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Software\Visual Studio 2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\Calculator.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Software\Visual Studio 2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Calculator.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Calculator.cpp CalculatorDlg.cpp CtlEdit.cpp
+         CtlEdit.cpp
+         CalculatorDlg.cpp
+     1>d:\software\visual studio 2013\projects\calculator\calculator\calculator\calculatordlg.cpp(383): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 d:\software\visual studio 2013\projects\calculator\calculator\calculator\calculatordlg.cpp(372) : 忽略“i”的定义
+                 d:\software\visual studio 2013\projects\calculator\calculator\calculator\calculatordlg.cpp(367) : 使用“i”的定义
+     1>d:\software\visual studio 2013\projects\calculator\calculator\calculator\calculatordlg.cpp(389): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 d:\software\visual studio 2013\projects\calculator\calculator\calculator\calculatordlg.cpp(372) : 忽略“i”的定义
+                 d:\software\visual studio 2013\projects\calculator\calculator\calculator\calculatordlg.cpp(367) : 使用“i”的定义
+     1>d:\software\visual studio 2013\projects\calculator\calculator\calculator\calculatordlg.cpp(400): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 d:\software\visual studio 2013\projects\calculator\calculator\calculator\calculatordlg.cpp(396) : 忽略“i”的定义
+                 d:\software\visual studio 2013\projects\calculator\calculator\calculator\calculatordlg.cpp(367) : 使用“i”的定义
+     1>d:\software\visual studio 2013\projects\calculator\calculator\calculator\calculatordlg.cpp(400): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\software\visual studio 2013\projects\calculator\calculator\calculator\calculatordlg.cpp(408): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 d:\software\visual studio 2013\projects\calculator\calculator\calculator\calculatordlg.cpp(372) : 忽略“i”的定义
+                 d:\software\visual studio 2013\projects\calculator\calculator\calculator\calculatordlg.cpp(367) : 使用“i”的定义
+     1>d:\software\visual studio 2013\projects\calculator\calculator\calculator\calculatordlg.cpp(410): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 d:\software\visual studio 2013\projects\calculator\calculator\calculator\calculatordlg.cpp(372) : 忽略“i”的定义
+                 d:\software\visual studio 2013\projects\calculator\calculator\calculator\calculatordlg.cpp(367) : 使用“i”的定义
+     1>d:\software\visual studio 2013\projects\calculator\calculator\calculator\calculatordlg.cpp(428): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 d:\software\visual studio 2013\projects\calculator\calculator\calculator\calculatordlg.cpp(372) : 忽略“i”的定义
+                 d:\software\visual studio 2013\projects\calculator\calculator\calculator\calculatordlg.cpp(367) : 使用“i”的定义
+     1>d:\software\visual studio 2013\projects\calculator\calculator\calculator\calculatordlg.cpp(439): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 d:\software\visual studio 2013\projects\calculator\calculator\calculator\calculatordlg.cpp(435) : 忽略“i”的定义
+                 d:\software\visual studio 2013\projects\calculator\calculator\calculator\calculatordlg.cpp(367) : 使用“i”的定义
+     1>d:\software\visual studio 2013\projects\calculator\calculator\calculator\calculatordlg.cpp(439): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+         Calculator.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /l"0x0804" /IDebug\ /nologo /fo"Debug\Calculator.res" Calculator.rc 
+       Link:
+         D:\Software\Visual Studio 2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Software\Visual Studio 2013\Projects\Calculator\Calculator\Debug\Calculator.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"D:\Software\Visual Studio 2013\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"D:\Software\Visual Studio 2013\Projects\Calculator\Calculator\Debug\Calculator.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Software\Visual Studio 2013\Projects\Calculator\Calculator\Debug\Calculator.lib" /MACHINE:X86 Debug\Calculator.res
+         Debug\Calculator.obj
+         Debug\CalculatorDlg.obj
+         Debug\CtlEdit.obj
+         Debug\stdafx.obj
+         Calculator.vcxproj -> D:\Software\Visual Studio 2013\Projects\Calculator\Calculator\Debug\Calculator.exe
+     1>已完成生成项目“D:\Software\Visual Studio 2013\Projects\Calculator\Calculator\Calculator\Calculator.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:23.53
